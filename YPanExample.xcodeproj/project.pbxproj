@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5FA58BC5A8F9EC67953AC2FB /* libPods-YPanExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72C481C5095395762DE359E0 /* libPods-YPanExample.a */; };
 		E47ACB611AF0E9E8004790CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E47ACB601AF0E9E8004790CB /* main.m */; };
 		E47ACB641AF0E9E8004790CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E47ACB631AF0E9E8004790CB /* AppDelegate.m */; };
 		E47ACB671AF0E9E8004790CB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E47ACB661AF0E9E8004790CB /* ViewController.m */; };
@@ -14,6 +15,11 @@
 		E47ACB6C1AF0E9E8004790CB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E47ACB6B1AF0E9E8004790CB /* Images.xcassets */; };
 		E47ACB6F1AF0E9E8004790CB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E47ACB6D1AF0E9E8004790CB /* LaunchScreen.xib */; };
 		E47ACB7B1AF0E9E8004790CB /* YPanExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E47ACB7A1AF0E9E8004790CB /* YPanExampleTests.m */; };
+		E47ACBC81AF0F722004790CB /* KPAuthFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = E47ACBC71AF0F722004790CB /* KPAuthFetcher.m */; };
+		E47ACBCC1AF0FA62004790CB /* AuthTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E47ACBCB1AF0FA62004790CB /* AuthTool.m */; };
+		E47ACBD01AF11519004790CB /* Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = E47ACBCF1AF11519004790CB /* Base64.m */; };
+		E47ACBD41AF11D66004790CB /* NSString+URLEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = E47ACBD31AF11D66004790CB /* NSString+URLEncode.m */; };
+		E47ACBD91AF1C267004790CB /* KPLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E47ACBD81AF1C267004790CB /* KPLoginViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +33,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4CDBE0A6D3D3DEBFE730BC0A /* Pods-YPanExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YPanExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-YPanExample/Pods-YPanExample.release.xcconfig"; sourceTree = "<group>"; };
+		72C481C5095395762DE359E0 /* libPods-YPanExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YPanExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93E1418E650B7D55E7EE515D /* Pods-YPanExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YPanExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YPanExample/Pods-YPanExample.debug.xcconfig"; sourceTree = "<group>"; };
 		E47ACB5B1AF0E9E8004790CB /* YPanExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YPanExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E47ACB5F1AF0E9E8004790CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E47ACB601AF0E9E8004790CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +49,16 @@
 		E47ACB741AF0E9E8004790CB /* YPanExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YPanExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E47ACB791AF0E9E8004790CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E47ACB7A1AF0E9E8004790CB /* YPanExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YPanExampleTests.m; sourceTree = "<group>"; };
+		E47ACBC61AF0F722004790CB /* KPAuthFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPAuthFetcher.h; sourceTree = "<group>"; };
+		E47ACBC71AF0F722004790CB /* KPAuthFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPAuthFetcher.m; sourceTree = "<group>"; };
+		E47ACBCA1AF0FA62004790CB /* AuthTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthTool.h; sourceTree = "<group>"; };
+		E47ACBCB1AF0FA62004790CB /* AuthTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthTool.m; sourceTree = "<group>"; };
+		E47ACBCE1AF11519004790CB /* Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64.h; sourceTree = "<group>"; };
+		E47ACBCF1AF11519004790CB /* Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base64.m; sourceTree = "<group>"; };
+		E47ACBD21AF11D66004790CB /* NSString+URLEncode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URLEncode.h"; sourceTree = "<group>"; };
+		E47ACBD31AF11D66004790CB /* NSString+URLEncode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLEncode.m"; sourceTree = "<group>"; };
+		E47ACBD71AF1C267004790CB /* KPLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPLoginViewController.h; sourceTree = "<group>"; };
+		E47ACBD81AF1C267004790CB /* KPLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPLoginViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FA58BC5A8F9EC67953AC2FB /* libPods-YPanExample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +80,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		82E2FF7270D852C948AB3D25 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				93E1418E650B7D55E7EE515D /* Pods-YPanExample.debug.xcconfig */,
+				4CDBE0A6D3D3DEBFE730BC0A /* Pods-YPanExample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E47ACB521AF0E9E8004790CB = {
 			isa = PBXGroup;
 			children = (
 				E47ACB5D1AF0E9E8004790CB /* YPanExample */,
 				E47ACB771AF0E9E8004790CB /* YPanExampleTests */,
 				E47ACB5C1AF0E9E8004790CB /* Products */,
+				82E2FF7270D852C948AB3D25 /* Pods */,
+				FACF9E964BEAB6565B0BB8B3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +112,7 @@
 		E47ACB5D1AF0E9E8004790CB /* YPanExample */ = {
 			isa = PBXGroup;
 			children = (
+				E47ACBC51AF0F6F9004790CB /* KPAuthFetcher */,
 				E47ACB621AF0E9E8004790CB /* AppDelegate.h */,
 				E47ACB631AF0E9E8004790CB /* AppDelegate.m */,
 				E47ACB651AF0E9E8004790CB /* ViewController.h */,
@@ -119,6 +151,71 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		E47ACBC51AF0F6F9004790CB /* KPAuthFetcher */ = {
+			isa = PBXGroup;
+			children = (
+				E47ACBD61AF1C23B004790CB /* KPLoginViewController */,
+				E47ACBD51AF1C224004790CB /* Third */,
+				E47ACBC91AF0FA48004790CB /* AuthTool */,
+				E47ACBC61AF0F722004790CB /* KPAuthFetcher.h */,
+				E47ACBC71AF0F722004790CB /* KPAuthFetcher.m */,
+			);
+			name = KPAuthFetcher;
+			sourceTree = "<group>";
+		};
+		E47ACBC91AF0FA48004790CB /* AuthTool */ = {
+			isa = PBXGroup;
+			children = (
+				E47ACBCA1AF0FA62004790CB /* AuthTool.h */,
+				E47ACBCB1AF0FA62004790CB /* AuthTool.m */,
+			);
+			name = AuthTool;
+			sourceTree = "<group>";
+		};
+		E47ACBCD1AF11506004790CB /* Base64 */ = {
+			isa = PBXGroup;
+			children = (
+				E47ACBCE1AF11519004790CB /* Base64.h */,
+				E47ACBCF1AF11519004790CB /* Base64.m */,
+			);
+			name = Base64;
+			sourceTree = "<group>";
+		};
+		E47ACBD11AF11D4F004790CB /* URLEncode */ = {
+			isa = PBXGroup;
+			children = (
+				E47ACBD21AF11D66004790CB /* NSString+URLEncode.h */,
+				E47ACBD31AF11D66004790CB /* NSString+URLEncode.m */,
+			);
+			name = URLEncode;
+			sourceTree = "<group>";
+		};
+		E47ACBD51AF1C224004790CB /* Third */ = {
+			isa = PBXGroup;
+			children = (
+				E47ACBCD1AF11506004790CB /* Base64 */,
+				E47ACBD11AF11D4F004790CB /* URLEncode */,
+			);
+			name = Third;
+			sourceTree = "<group>";
+		};
+		E47ACBD61AF1C23B004790CB /* KPLoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E47ACBD71AF1C267004790CB /* KPLoginViewController.h */,
+				E47ACBD81AF1C267004790CB /* KPLoginViewController.m */,
+			);
+			name = KPLoginViewController;
+			sourceTree = "<group>";
+		};
+		FACF9E964BEAB6565B0BB8B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72C481C5095395762DE359E0 /* libPods-YPanExample.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +223,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E47ACB7E1AF0E9E8004790CB /* Build configuration list for PBXNativeTarget "YPanExample" */;
 			buildPhases = (
+				AAE3F97C98FA0C18C93C537F /* Check Pods Manifest.lock */,
 				E47ACB571AF0E9E8004790CB /* Sources */,
 				E47ACB581AF0E9E8004790CB /* Frameworks */,
 				E47ACB591AF0E9E8004790CB /* Resources */,
+				162EAE2B8F7DBD5856D87AEE /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,13 +313,51 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		162EAE2B8F7DBD5856D87AEE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YPanExample/Pods-YPanExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AAE3F97C98FA0C18C93C537F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E47ACB571AF0E9E8004790CB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E47ACBCC1AF0FA62004790CB /* AuthTool.m in Sources */,
+				E47ACBC81AF0F722004790CB /* KPAuthFetcher.m in Sources */,
 				E47ACB671AF0E9E8004790CB /* ViewController.m in Sources */,
+				E47ACBD41AF11D66004790CB /* NSString+URLEncode.m in Sources */,
 				E47ACB641AF0E9E8004790CB /* AppDelegate.m in Sources */,
+				E47ACBD91AF1C267004790CB /* KPLoginViewController.m in Sources */,
+				E47ACBD01AF11519004790CB /* Base64.m in Sources */,
 				E47ACB611AF0E9E8004790CB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -345,9 +482,11 @@
 		};
 		E47ACB7F1AF0E9E8004790CB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93E1418E650B7D55E7EE515D /* Pods-YPanExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = YPanExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -355,9 +494,11 @@
 		};
 		E47ACB801AF0E9E8004790CB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CDBE0A6D3D3DEBFE730BC0A /* Pods-YPanExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = YPanExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -416,6 +557,7 @@
 				E47ACB801AF0E9E8004790CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E47ACB811AF0E9E8004790CB /* Build configuration list for PBXNativeTarget "YPanExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +566,7 @@
 				E47ACB831AF0E9E8004790CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
